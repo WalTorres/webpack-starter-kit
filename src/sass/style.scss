@@ -1,0 +1,16 @@
+@import "colors";
+@import "mixins";
+@import "base";
+
+@font-face {
+  font-family: "Poppins";
+  src: url("images/poppins.ttf") format("truetype");
+}
+
+body {
+  font-family: "Poppins", Times, serif;
+  background-color: green;
+}
+div {
+  background: url(images/goku.jpg) center center no-repeat;
+}
